@@ -5,24 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-    tools:context=".MainActivity">
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Coba Minitest"
-    android:layout_centerHorizontal="true"
-    android:layout_above="@id/btn_pindah"
-    android:textColor="#9C27B0"
-    android:textSize="30dp"
-    android:fontFamily="sans-serif"
-    />
+    tools:context=".SecondActivity">
 
-    <Button
-        android:id="@+id/btn_pindah"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pindah"
+        android:text="HALO DUNIA !"
         android:layout_centerInParent="true"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="40dp"
         />
 
 
