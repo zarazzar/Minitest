@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ET_tulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Tulis"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/TV_tulis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo bang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_below="@id/BTN_GO"
+        />
+
+    <Button
+        android:id="@+id/BTN_GO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/ET_tulis"
+        />
+
+</RelativeLayout>
